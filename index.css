@@ -1,0 +1,150 @@
+body {
+  position: relative;
+  min-height: 98vh;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.inputField {
+  margin-bottom: 5px;
+}
+
+button {
+  margin-bottom: 5px;
+}
+
+.line {
+  border-bottom: 1px solid gray;
+}
+
+header {
+  display: flex;
+  border: 2px solid black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+
+#time {
+  text-align: end;
+  margin-top: 2px;
+  font-size: 13px;
+}
+
+.link {
+  display: flex;
+  gap: 15px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.showBooks {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+  height: 40vh;
+}
+
+span {
+  background: transparent !important;
+}
+
+.showBooks :nth-child(odd) {
+  background-color: whitesmoke;
+  padding: 5px;
+}
+
+.showBooks :nth-child(even) {
+  padding: 5px;
+}
+
+.showBooks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+button {
+  box-shadow: 1px 3px black;
+  border-radius: 3px;
+}
+
+.add-books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  position: static;
+}
+
+#my-form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+#addBtn {
+  width: 25%;
+  margin-left: 75%;
+  box-shadow: 2px 4px black;
+}
+
+.contact {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+footer {
+  border: 2px solid black;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+footer p {
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info ul {
+  list-style-type: square;
+}
+
