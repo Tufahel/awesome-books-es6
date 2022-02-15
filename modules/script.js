@@ -12,7 +12,7 @@ export const init = () => {
   }
   btnSave.addEventListener('click', saveData);
   showData();
-}
+};
 
 export const showData = () => {
   if (dataList.length) {
@@ -23,7 +23,7 @@ export const showData = () => {
     }
     syncEvents();
   }
-}
+};
 
 export const saveData = () => {
   const data = {
@@ -36,7 +36,7 @@ export const saveData = () => {
   addDataToList(data);
   syncEvents();
   lastId++;
-}
+};
 
 export const addDataToList = (data) => {
   const removeData = document.createElement('span');
@@ -52,7 +52,7 @@ export const addDataToList = (data) => {
     element.appendChild(removeData);
     showList.appendChild(element);
   }
-}
+};
 
 export const removeDta = (event) => {
   const dataToRemove = event.currentTarget.parentNode;
@@ -66,17 +66,17 @@ export const removeDta = (event) => {
     }
   });
   syncTask();
-}
+};
 
 export const syncTask = () => {
   window.localStorage.setItem('dataList', JSON.stringify(dataList));
   dataList = JSON.parse(window.localStorage.getItem('dataList'));
-}
+};
 
 export const getLastTaskId = () => {
   const lastTask = dataList[dataList.length - 1];
   lastId = lastTask.dataId + 1;
-}
+};
 
 export const syncEvents = () => {
   removeData = document.getElementsByClassName('remove_data');
@@ -85,6 +85,6 @@ export const syncEvents = () => {
       removeData[i].addEventListener('click', removeDta);
     }
   }
-}
+};
 
 init();

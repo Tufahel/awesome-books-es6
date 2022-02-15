@@ -16,10 +16,6 @@ h2 {
   margin-bottom: 5px;
 }
 
-button {
-  margin-bottom: 5px;
-}
-
 .line {
   border-bottom: 1px solid gray;
 }
@@ -36,7 +32,6 @@ nav {
   padding: 5px 10px;
   width: 100%;
 }
-
 
 #time {
   text-align: end;
@@ -92,6 +87,7 @@ span {
 button {
   box-shadow: 1px 3px black;
   border-radius: 3px;
+  margin-bottom: 5px;
 }
 
 .add-books {
@@ -107,6 +103,7 @@ button {
   display: flex;
   flex-direction: column;
 }
+
 input {
   margin-bottom: 5px;
   padding: 5px;
@@ -147,4 +144,3 @@ footer p {
 .info ul {
   list-style-type: square;
 }
-

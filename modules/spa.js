@@ -16,7 +16,7 @@ export const bookList = () => {
   addBooksNav.style.color = 'black';
   addBook.style.display = 'none';
   showContact.style.display = 'none';
-}
+};
 
 listNav.addEventListener('click', bookList);
 
@@ -27,7 +27,7 @@ export const addBookForm = () => {
   listNav.style.color = 'black';
   showBookList.style.display = 'none';
   showContact.style.display = 'none';
-}
+};
 
 addBooksNav.addEventListener('click', addBookForm);
 
@@ -38,6 +38,6 @@ export const contact = () => {
   listNav.style.color = 'back';
   addBook.style.display = 'none';
   showBookList.style.display = 'none';
-}
+};
 
 contactNav.addEventListener('click', contact);
