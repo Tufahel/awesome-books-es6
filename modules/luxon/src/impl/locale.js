@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { padStart, roundTo, hasRelative } from "./util.js";
 import * as English from "./english.js";
 import Settings from "../settings.js";

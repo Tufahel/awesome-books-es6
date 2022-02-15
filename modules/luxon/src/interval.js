@@ -1,3 +1,4 @@
+/* eslint-disable */
 import DateTime, { friendlyDateTime } from "./datetime.js";
 import Duration from "./duration.js";
 import Settings from "./settings.js";

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as Formats from "./formats.js";
 import { pick } from "./util.js";
 

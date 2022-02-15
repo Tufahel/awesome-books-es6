@@ -1,3 +1,4 @@
+/* eslint-disable */
 import DateTime from "./datetime.js";
 import Duration from "./duration.js";
 import Interval from "./interval.js";

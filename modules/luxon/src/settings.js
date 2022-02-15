@@ -1,3 +1,4 @@
+/* eslint-disable */
 import SystemZone from "./zones/systemZone.js";
 import IANAZone from "./zones/IANAZone.js";
 import Locale from "./impl/locale.js";

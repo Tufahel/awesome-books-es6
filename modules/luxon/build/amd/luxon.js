@@ -1,3 +1,4 @@
+/* eslint-disable */
 define(['exports'], (function (exports) { 'use strict';
 
   function _defineProperties(target, props) {

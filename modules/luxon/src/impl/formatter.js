@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as English from "./english.js";
 import * as Formats from "./formats.js";
 import { padStart } from "./util.js";

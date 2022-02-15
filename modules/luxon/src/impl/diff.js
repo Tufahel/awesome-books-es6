@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Duration from "../duration.js";
 
 function dayDiff(earlier, later) {

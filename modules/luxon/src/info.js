@@ -1,3 +1,4 @@
+/* eslint-disable */
 import DateTime from "./datetime.js";
 import Settings from "./settings.js";
 import Locale from "./impl/locale.js";

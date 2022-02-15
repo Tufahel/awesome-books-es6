@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { InvalidArgumentError, InvalidDurationError, InvalidUnitError } from "./errors.js";
 import Formatter from "./impl/formatter.js";
 import Invalid from "./impl/invalid.js";

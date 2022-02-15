@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Zone from "../zone.js";
 
 /**

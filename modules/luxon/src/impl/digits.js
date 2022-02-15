@@ -1,3 +1,4 @@
+/* eslint-disable */
 const numberingSystems = {
   arab: "[\u0660-\u0669]",
   arabext: "[\u06F0-\u06F9]",

@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default class Invalid {
   constructor(reason, explanation) {
     this.reason = reason;

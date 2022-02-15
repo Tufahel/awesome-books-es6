@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { DateTime } from './luxon/src/luxon.js';
 
 const dateTime = document.querySelector('#time');

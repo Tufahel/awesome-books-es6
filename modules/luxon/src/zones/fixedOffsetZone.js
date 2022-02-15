@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { formatOffset, signedOffset } from "../impl/util.js";
 import Zone from "../zone.js";
 

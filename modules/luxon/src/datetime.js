@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Duration from "./duration.js";
 import Interval from "./interval.js";
 import Settings from "./settings.js";

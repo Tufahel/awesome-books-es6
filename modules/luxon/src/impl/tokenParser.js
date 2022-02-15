@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { parseMillis, isUndefined, untruncateYear, signedOffset, hasOwnProperty } from "./util.js";
 import Formatter from "./formatter.js";
 import FixedOffsetZone from "../zones/fixedOffsetZone.js";
