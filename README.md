@@ -12,11 +12,11 @@
 - Javascript
 - VScode
 ## Live Demo
-For the link to the live demo, [Click here](https://tufahel.github.io/awesome-books/)
+For the link to the live demo, [Click here](https://tufahel.github.io/awesome-books-es6/)
 ## Getting Started
 To get a local copy up and running you just need to follow the following steps;
 -Clone this repository with
-git clone https://github.com/Tufahel/awesome-books.git using your terminal or command line.
+git clone https://github.com/Tufahel/awesome-books-es6/tree/modules using your terminal or command line.
 -Change to the project directory by entering :
 cd awesome-books in the terminal.
 -run code . to open it in vscode
